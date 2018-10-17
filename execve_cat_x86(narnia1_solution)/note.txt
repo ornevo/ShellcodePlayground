@@ -1,0 +1,2 @@
+Why I failed to complete Narnia2: because the command line argument passing escaped too many characters, and it's fucking 04:24 AM. Have fun twicking the 
+	shellcode until it has no problematic characters, as once spawning a shell isn't enough for passing narnia, it because god damn hard. -_-

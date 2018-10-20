@@ -44,4 +44,5 @@ python -c "print '='*40"
 
 # count null bytes in shellcode
 echo "Length: $[ $(echo $sh_code | wc -c) / 4 ] characters"
-echo "Are there null bytes? $(echo $sh_code | egrep -c '\\x00')"
+echo "How many null bytes? $(echo $sh_code | egrep -c '\\x00')"
+echo "How many whitespaces? $(echo $sh_code | egrep -c '[\\x09\\x0a\\x0b\\x0c\\x0d\\x20]')"
